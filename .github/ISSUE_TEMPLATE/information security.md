@@ -1,6 +1,6 @@
 ---
 name: 🔐 Information security improvement
-about: Submit an proposal to improve information security
+about: Submit a proposal to improve information security
 labels: Information security
 ---
 
