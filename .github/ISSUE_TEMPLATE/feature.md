@@ -6,12 +6,13 @@ labels: enhancement
 
 # 🚀 Feature proposal
 
-<!-- A clear and concise description of the proposed feature. -->
+<!-- Creator of ticket: write a clear and concise description of the proposed feature. -->
 
-## Motivation
+## Suggested priority
 
-<!-- Why should this feature be implemented? -->
+<!-- Creator of ticket: please keep in mind that there any many tickets and if this one should be implemented first, others will be implemented later -->
 
-## Example
+## Implementor: checklist before starting
 
-<!-- How would this feature be used? -->
+- [ ] Implementation specification agreed upon
+- [ ] Impact on existing functionality identified and discussed with stakeholders
