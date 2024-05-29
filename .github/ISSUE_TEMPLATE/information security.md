@@ -19,3 +19,15 @@ labels: Information security
 
 ## ISMS impact
 <!-- Whether this ticket affects the Information Security Management System -->
+
+## Risk assessment
+<!-- To be filled out by Security team -->
+
+* Probability score: 
+* Impact score:
+* [CVSS Score](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:L/I:L/A:N/E:P/RL:O/RC:U):
+* Effort (hr):
+* Risk Action: <!-- Accept / Mitigate -->
+
+## Suggested actions to refine risk assessment
+<!-- To be filled out by Security team -->
