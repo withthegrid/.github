@@ -19,7 +19,7 @@ body:
       description: Upload the protocol documentation (eg. modbus register)
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: deal
     attributes:
       label: Deal
