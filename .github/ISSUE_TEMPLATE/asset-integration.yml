@@ -1,0 +1,56 @@
+name: Teleport asset integration
+description: Integrate a new asset type into the Teleport ecosystem
+title: 'Add <asset> to the asset library'
+labels: ['sales&ops', 'enhancement']
+projects: ['withthegrid/19']
+body:
+  - type: input
+    id: asset
+    attributes:
+      label: Asset type
+      description: What is the brand and type of the asset you want to integrate?
+      placeholder: ABB Feeder Protection and Control REF615
+    validations:
+      required: true
+  - type: textarea
+    id: protocol
+    attributes:
+      label: Protocol documentation
+      description: Upload the protocol documentation (eg. modbus register)
+    validations:
+      required: true
+  - type: input
+    id: deal
+    attributes:
+      label: Deal
+      description: Link to the Hubspot deal
+      value: https://app.hubspot.com/contacts/6936492/deal/18503131550
+      placeholder: https://app.hubspot.com/contacts/6936492/deal/18503131550
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - Sold
+        - Not yet confirmed by customer
+      default: 1
+    validations:
+      required: true
+  - type: input
+    id: oem-contact
+    attributes:
+      label: OEM contact
+      description: Email address of the party we can ask questions during the integration
+      placeholder: john@huawei.com
+    validations:
+      required: true
+  - type: input
+    id: project-contact
+    attributes:
+      label: Test contact
+      description: Email address of the person that can facilitate on-site testing
+      placeholder: jane@customer.com
+    validations:
+      required: true
