@@ -20,10 +20,10 @@ body:
     validations:
       required: true
   - type: textarea
-    id: deal
+    id: deals
     attributes:
-      label: Deal
-      description: Link to the Hubspot deal
+      label: Deal(s)
+      description: Link to the Hubspot deal(s)
       value: https://app.hubspot.com/contacts/6936492/deal/18503131550
       placeholder: https://app.hubspot.com/contacts/6936492/deal/18503131550
     validations:
