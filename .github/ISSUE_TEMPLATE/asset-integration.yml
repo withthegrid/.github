@@ -23,11 +23,20 @@ body:
     id: deals
     attributes:
       label: Deal(s)
-      description: Link to the Hubspot deal(s)
-      value: https://app.hubspot.com/contacts/6936492/deal/18503131550
-      placeholder: https://app.hubspot.com/contacts/6936492/deal/18503131550
+      description: Link to the Hubspot deal(s). Also include name of customer
+      value: https://app.hubspot.com/contacts/6936492/deal/18503131550 (Edmij)
+      placeholder: https://app.hubspot.com/contacts/6936492/deal/18503131550 (Edmij)
     validations:
       required: true
+  - type: textarea
+    id: tickets
+    attributes:
+      label: Ticket(s)
+      description: Link to the Hubspot tickets(s)
+      value: https://app.hubspot.com/contacts/6936492/record/0-5/2644173652
+      placeholder: https://app.hubspot.com/contacts/6936492/record/0-5/2644173652
+    validations:
+      required: false
   - type: dropdown
     id: status
     attributes:
@@ -38,7 +47,7 @@ body:
       default: 1
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: oem-contact
     attributes:
       label: OEM contact
@@ -46,11 +55,18 @@ body:
       placeholder: john@huawei.com
     validations:
       required: true
-  - type: input
-    id: project-contact
+  - type: textarea
+    id: test-contact
     attributes:
       label: Test contact
       description: Email address of the person that can facilitate on-site testing
       placeholder: jane@customer.com
+    validations:
+      required: true
+  - type: textarea
+    id: prioritization-input
+    attributes:
+      label: Prioritization context
+      description: Deadlines, agreements, context
     validations:
       required: true
