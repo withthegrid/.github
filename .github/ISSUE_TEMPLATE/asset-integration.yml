@@ -23,18 +23,18 @@ body:
     id: deals
     attributes:
       label: Deal(s)
-      description: Link to the Hubspot deal(s). Also include name of customer
-      value: https://app.hubspot.com/contacts/6936492/deal/18503131550 (Edmij)
-      placeholder: https://app.hubspot.com/contacts/6936492/deal/18503131550 (Edmij)
+      description: Name of the Hubspot deal(s), including a ink to the Hubspot deal(s).
+      value: [Karwei - Teleport (Edmij)](https://app.hubspot.com/contacts/6936492/deal/18503131550)
+      placeholder: [Karwei - Teleport (Edmij)](https://app.hubspot.com/contacts/6936492/deal/18503131550)
     validations:
       required: true
   - type: textarea
     id: tickets
     attributes:
       label: Ticket(s)
-      description: Link to the Hubspot tickets(s)
-      value: https://app.hubspot.com/contacts/6936492/record/0-5/2644173652
-      placeholder: https://app.hubspot.com/contacts/6936492/record/0-5/2644173652
+      description: Name of the Hubspot tickets(s), including a link
+      value: [1 TP for Karwei Wijk bij Duurstede - LC - Sungrow (Edmij)](https://app.hubspot.com/contacts/6936492/record/0-5/2644173652)
+      placeholder: [1 TP for Karwei Wijk bij Duurstede - LC - Sungrow (Edmij)](https://app.hubspot.com/contacts/6936492/record/0-5/2644173652)
     validations:
       required: false
   - type: dropdown
