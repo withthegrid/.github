@@ -23,7 +23,7 @@ body:
     id: deals
     attributes:
       label: Deal(s)
-      description: Name of the Hubspot deal(s), including a ink to the Hubspot deal(s).
+      description: Name of the Hubspot deal(s), including a link to the Hubspot deal(s).
       value: [Karwei - Teleport (Edmij)](https://app.hubspot.com/contacts/6936492/deal/18503131550)
       placeholder: [Karwei - Teleport (Edmij)](https://app.hubspot.com/contacts/6936492/deal/18503131550)
     validations:
