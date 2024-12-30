@@ -1,8 +1,8 @@
 name: Teleport asset integration
 description: Integrate a new asset type into the Teleport ecosystem
-title: 'Add <asset> to the asset library'
-labels: ['sales&ops', 'enhancement']
-projects: ['withthegrid/19']
+title: "Add <asset> to the asset library"
+labels: ["sales&ops", "enhancement"]
+projects: ["withthegrid/19"]
 body:
   - type: input
     id: asset
@@ -24,8 +24,8 @@ body:
     attributes:
       label: Deal(s)
       description: Name of the Hubspot deal(s), including a link to the Hubspot deal(s).
-      value: [Karwei - Teleport (Edmij)](https://app.hubspot.com/contacts/6936492/deal/18503131550)
-      placeholder: [Karwei - Teleport (Edmij)](https://app.hubspot.com/contacts/6936492/deal/18503131550)
+      value: "[Karwei - Teleport (Edmij)](https://app.hubspot.com/contacts/6936492/deal/18503131550)"
+      placeholder: "[Karwei - Teleport (Edmij)](https://app.hubspot.com/contacts/6936492/deal/18503131550)"
     validations:
       required: true
   - type: textarea
@@ -33,8 +33,8 @@ body:
     attributes:
       label: Ticket(s)
       description: Name of the Hubspot tickets(s), including a link
-      value: [1 TP for Karwei Wijk bij Duurstede - LC - Sungrow (Edmij)](https://app.hubspot.com/contacts/6936492/record/0-5/2644173652)
-      placeholder: [1 TP for Karwei Wijk bij Duurstede - LC - Sungrow (Edmij)](https://app.hubspot.com/contacts/6936492/record/0-5/2644173652)
+      value: "[1 TP for Karwei Wijk bij Duurstede - LC - Sungrow (Edmij)](https://app.hubspot.com/contacts/6936492/record/0-5/2644173652)"
+      placeholder: "[1 TP for Karwei Wijk bij Duurstede - LC - Sungrow (Edmij)](https://app.hubspot.com/contacts/6936492/record/0-5/2644173652)"
     validations:
       required: false
   - type: dropdown
