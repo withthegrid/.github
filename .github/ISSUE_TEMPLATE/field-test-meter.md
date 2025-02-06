@@ -1,6 +1,6 @@
 ---
 name: 📏 Field test - Meter asset
-description: Field test a new Meter asset type
+about: Field test a new Meter asset type
 title: "Field test <asset>"
 labels: ["field-test-new-asset-type", "sales&ops", "enhancement"]
 ---
