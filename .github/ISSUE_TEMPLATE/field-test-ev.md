@@ -1,6 +1,6 @@
 ---
 name: 📏 Field test - EV asset
-description: Field test a new EV asset type
+about: Field test a new EV asset type
 title: "Field test <asset>"
 labels: ["field-test-new-asset-type", "sales&ops", "enhancement"]
 ---
