@@ -1,6 +1,6 @@
 ---
 name: 📏 Field test - Battery asset
-description: Field test a new Battery asset type
+about: Field test a new Battery asset type
 title: "Field test <asset>"
 labels: ["field-test-new-asset-type", "sales&ops", "enhancement"]
 ---
