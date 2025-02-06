@@ -1,6 +1,6 @@
 ---
 name: 📏 Field test - Solar & Wind asset
-description: Field test a new Solar or Wind asset type
+about: Field test a new Solar or Wind asset type
 title: "Field test <asset>"
 labels: ["field-test-new-asset-type", "sales&ops", "enhancement"]
 ---
