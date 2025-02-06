@@ -1,7 +1,9 @@
+---
 name: 📏 Field test - Solar & Wind asset
 description: Field test a new Solar or Wind asset type
 title: "Field test <asset>"
-labels: field-test-new-asset-type
+labels: ["field-test-new-asset-type", "sales&ops", "enhancement"]
+---
 
 # Field Test: Solar and Wind Assets
 
@@ -17,6 +19,6 @@ labels: field-test-new-asset-type
 - [ ] All other data entries have sensible values, e.g. no unexpected `null` values and sensible values in `inverters`. Copy the JSON from the report in the field test ticket and e.g. add checkmarks (✅) and notes to each item for validation.
 - [ ] The asset accepts a setpoint and the read back setpoint in the reports matches the sent setpoint.
 - [ ] The asset can be controlled, i.e. the active power output of the asset roughly matches the setpoint after a couple of seconds.
-- [ ]  When uncontrolled, the setpoint goes back to the default setpoint, unlimited, after a couple of seconds and the active power increases.
+- [ ] When uncontrolled, the setpoint goes back to the default setpoint, unlimited, after a couple of seconds and the active power increases.
 - [ ] The asset connector TODOs have been dealt with and removed, or at least a PR open to do so.
 - [ ] Documented any particularities (e.g., slow response times, required manual settings, or limitations) in the [asset guide](https://github.com/withthegrid/teleport/tree/main/guides/asset).
