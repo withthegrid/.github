@@ -28,3 +28,4 @@ labels: ["field-test-new-asset-type", "sales&ops", "enhancement"]
 - [ ] Updated `DEFAULT_STATE_OF_CHARGE_LIMITS`.
 - [ ] The asset connector TODOs have been dealt with and removed, or at least a PR open to do so.
 - [ ] Documented any particularities (e.g., slow response times, required manual settings, or limitations) in the [asset guide](https://github.com/withthegrid/teleport/tree/main/guides/asset).
+- [ ] Removed the `warning` on the public installation instructions about the field test not yet being completed.
