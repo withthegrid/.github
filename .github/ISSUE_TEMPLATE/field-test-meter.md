@@ -21,3 +21,4 @@ labels: ["field-test-new-asset-type", "sales&ops", "enhancement"]
   2. A secondary measurement performed by a party on site. E.g. reading another meter, using a current clamp or multimeter to verify the current, etc.
 - [ ] The asset connector TODOs have been dealt with and removed, or at least a PR open to do so.
 - [ ] Documented any particularities (e.g., slow response times, required manual settings, or limitations) in the [asset guide](https://github.com/withthegrid/teleport/tree/main/guides/asset).
+- [ ] Removed the `warning` on the public installation instructions about the field test not yet being completed.
