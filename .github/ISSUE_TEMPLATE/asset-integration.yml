@@ -70,3 +70,17 @@ body:
       description: Deadlines, agreements, context
     validations:
       required: true
+  - type: checkboxes
+    id: documentation-validation
+    attributes:
+      label: "Documentation validation (dev):"
+      description: "Only required for battery assets"
+      options:
+        - label: "Clear readout for at least Active Power and SoC"
+          required: false
+        - label: "Clear writing procedure and register for Active Power Setpoint and Heartbeat (if included)"
+          required: false
+        - label: "Clear way to initialise / startup system"
+          required: false
+        - label: "Documentation is not integrated yet (search Active Power and SoC register usage in codebase)"
+          required: false
